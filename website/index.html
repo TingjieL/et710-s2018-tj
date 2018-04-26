@@ -8,13 +8,36 @@
     <script src="js/vendor/angular.js"></script>
 
     <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/fa\web-fonts-with-css\css\fontawesome-all.css.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    href="css/fa\web-fonts-with-css\css\fontawesome-all.css.css">
     <link rel="stylesheet" href="css/app.css">
 
     <link rel="stylesheet" href="css/footer.css">
 
   </head>
   <body>
+
+    <!-- End DataTable Example-->
+
+    <h5>Here&rsquo;s the AngularJS Test:</h5>
+     <div>
+        <label>Name:</label>
+        <input type="text" ng-model="yourName" placeholder="ET-718 Rocks">
+        <hr>
+        <h1>Hello {{yourName}}!</h1>
+      </div>
+     <hr />
+</div>
+</div>
+</div>
+
+    <!-- *End Content -->
+
 
     <!-- *Begin Footer -->
         <footer class="marketing-site-footer">
@@ -93,5 +116,12 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+
+    <script>
+   $(document).ready(function() {
+     $('#example').DataTable();
+   } );
+ </script>
+
   </body>
 </html>
